@@ -23,8 +23,16 @@
         padding: 10px;
     }
     thead , tfoot{
-        background-color: gray;
+        background-color: rgba(0, 0, 0, 0.835);
         color: white;
+    }
+    .cuzcuz  tr:nth-child(1n){
+        background-color: blue;
+        text-decoration: underline lime;
+    }
+    tbody tr:nth-child(1n){
+        background-color: rgba(28, 22, 22, 0.8);
+        font-weight: bolder;
     }
     .num{
         text-align: right;
@@ -35,6 +43,20 @@
         padding: 10px;
         background-color: lightgray;
     }
+    div{
+        background-color: navy;
+        width: 400px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-left:auto ;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: yellow;
+        border: solid 4px red;
+        box-shadow: 0px 7px 19px 18px black;
+    }
 </style>
 <body>
     <table>
@@ -42,7 +64,7 @@
         <thead>
             <tr>
                 <th scope="col">Estado</th>
-                <th scope="col">População</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tfoot>
@@ -71,6 +93,8 @@
                 <td>Minas Gerais</td>
                 <td class="num">21.900.590</td>
             </tr>
+        </tbody>
+        <tbody class="cuzcuz">
             <tr>
                 <td>Paraná</td>
                 <td class="num">10.000.678</td>
@@ -97,5 +121,8 @@
             </tr>
         </tbody>
     </table>
+    <div>
+        <h2>ATENÇÃ0!!!!</h2>
+    </div>
 </body>
 </html>
