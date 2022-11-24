@@ -1,0 +1,69 @@
+@font-face{
+    font-family:"ok";
+    src: url(fonts/optima-demibold.ttf)
+     format("truetype");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(2350693.webp);
+    background-position: center bottom;
+}
+nav{
+    background-color: #580E39;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width:1000px ;
+    height: 500px;
+    margin-top: 8px;
+}
+th,td{
+    border: 2px solid black;
+  
+    color: white;
+    font-family: "ok";
+    font-size: 1.2em;
+}
+td{
+    letter-spacing: 2px;
+}
+tr:nth-child(2n){
+    background-color: black;
+}
+tr:nth-child(odd){
+    background-color: #505967;
+}
+th{
+    padding: 20px;
+    border: #580E39 solid 3px;
+    letter-spacing: 5px;
+    background-color: black;
+}
+td{
+    text-align: center;
+}
+#cont{
+    overflow-x: auto;
+}
+.q{
+    color: white;
+    font-size: 5em;
+    font-family: "ok";
+    text-align: center;
+    height: 72px;
+}
+.a{
+    color: white;
+    text-indent: 81px;
+    text-align: center;
+    font-size: 3em;
+    font-family: "ok";
+    
+}
+a{
+    text-decoration: none;
+}
