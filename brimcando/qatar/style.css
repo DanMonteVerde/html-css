@@ -24,7 +24,7 @@ main{
 
 }
 .ifr{
-background-image: url(h1-dusseldorf-hn.jpg);
+background-image: linear-gradient(to bottom,#A9CAEB,#CBBEC5);
 background-repeat: no-repeat;
 background-position: top center;
 position: relative;
@@ -106,21 +106,19 @@ a{
 }
 .promo{
     background-color: #0D204B;
-    width: 255px;
+    max-width: 300px;
     height: 590px;
     margin: auto;
     border-radius: 70px;
-    display:inline-block;
-    margin-right: -130px;
+    display:block;
 }
 .barato{
     background-color: #1F1B79;
-    width: 255px;
+    max-width: 300px;
     height: 590px;
     margin: auto;
     border-radius: 70px;
-    display: inline-block;
-    margin-left: 47px;
+    display:block;
     box-shadow: black -20px 13px 5px 0px;
 }
 
