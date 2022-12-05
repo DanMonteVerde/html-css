@@ -110,7 +110,6 @@ a{
     height: 590px;
     margin: auto;
     border-radius: 70px;
-    display:block;
 }
 .barato{
     background-color: #1F1B79;
@@ -118,8 +117,6 @@ a{
     height: 590px;
     margin: auto;
     border-radius: 70px;
-    display:block;
-    box-shadow: black -20px 13px 5px 0px;
 }
 
 .pai{
