@@ -109,13 +109,24 @@ a{
     width: 200px;
     height: 400px;
     margin: auto;
+    border-radius: 20px;
+    color: black;
+    font-size: 2.5em;
+    font-family: ok;
     display: inline-block;
+}
+.promo{
+   text-decoration: line-through red;
 }
 .barato{
     background-color: #1F1B79;
     width: 200px;
+    color: black;
     height: 400px;
     margin: auto;
+    font-size: 2.5em;
+    border-radius: 20px;
+    font-family: ok;
     display: inline-block;
 }
 
