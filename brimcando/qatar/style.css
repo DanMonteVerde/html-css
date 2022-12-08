@@ -106,7 +106,7 @@ a{
 }
 .promo{
     background-color: #0D204B;
-    width: 300px;
+    width: 141.73228346625px;
     min-width: 180px;
     height: 400px;
     margin: auto;
@@ -115,11 +115,14 @@ a{
     font-size: 2.5em;
     font-family: ok;
     display: inline-block;
-    text-decoration: line-through red;
+    text-decoration: line-through #211aa3;
+}
+#mar{
+    margin-top: 150px;
 }
 .barato{
     background-color: #1F1B79;
-    width: 300px;
+    width: 141.73228346625px;
     min-width: 180px;
     color: black;
     height: 400px;
@@ -129,7 +132,6 @@ a{
     font-family: ok;
     display: inline-block;
 }
-
 .pai{
     text-align: center;
     background-image:linear-gradient(to right,#3F6A95,#A2214B);
