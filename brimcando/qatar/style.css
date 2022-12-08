@@ -106,16 +106,16 @@ a{
 }
 .promo{
     background-color: #0D204B;
-    width: 170px;
-    height: 300px;
+    width: 200px;
+    height: 400px;
     margin: auto;
     border-radius: 70px;
     display: inline-block;
 }
 .barato{
     background-color: #1F1B79;
-    width: 170px;
-    height: 300px;
+    width: 200px;
+    height: 400px;
     margin: auto;
     border-radius: 70px;
     display: inline-block;
