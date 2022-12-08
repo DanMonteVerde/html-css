@@ -106,8 +106,8 @@ a{
 }
 .promo{
     background-color: #0D204B;
-    width: 141.73228346625px;
-    min-width: 180px;
+    width: 180px;
+    margin-left: 40px;
     height: 400px;
     margin: auto;
     border-radius: 20px;
@@ -115,15 +115,11 @@ a{
     font-size: 2.5em;
     font-family: ok;
     display: inline-block;
-    text-decoration: line-through #211aa3;
-}
-#mar{
-    margin-top: 150px;
+    text-decoration: line-through #704570 ;
 }
 .barato{
     background-color: #1F1B79;
-    width: 141.73228346625px;
-    min-width: 180px;
+    width: 180px;
     color: black;
     height: 400px;
     margin: auto;
@@ -131,6 +127,9 @@ a{
     border-radius: 20px;
     font-family: ok;
     display: inline-block;
+}
+#mar{
+    margin-top: 150px;
 }
 .pai{
     text-align: center;
