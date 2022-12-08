@@ -106,7 +106,8 @@ a{
 }
 .promo{
     background-color: #0D204B;
-    width: 180px;
+    width: 300px;
+    min-width: 180px;
     height: 400px;
     margin: auto;
     border-radius: 20px;
@@ -118,7 +119,8 @@ a{
 }
 .barato{
     background-color: #1F1B79;
-    width: 180px;
+    width: 300px;
+    min-width: 180px;
     color: black;
     height: 400px;
     margin: auto;
