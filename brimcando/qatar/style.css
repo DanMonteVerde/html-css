@@ -10,7 +10,6 @@
 body{
    background-color: #232429;
    height: 100vh;
-   background-attachment: fixed;
 }
 nav{
     background-color: #580E39;
@@ -134,7 +133,6 @@ a{
 .pai{
     text-align: center;
     background-image:linear-gradient(to right,#3F6A95,#A2214B);
-    background-attachment: fixed;
     box-shadow: 0px 0px 13px 10px rgb(0 0 0 / 67%);
     border-radius: 0px 0px 0px 0px;
     max-width: 1166px;
