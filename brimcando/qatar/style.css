@@ -105,8 +105,6 @@ a{
 }
 .promo{
     background-color: #0D204B;
-    width: 180px;
-    margin-left: 40px;
     height: 400px;
     margin: auto;
     border-radius: 20px;
@@ -115,17 +113,18 @@ a{
     font-family: ok;
     display: inline-block;
     text-decoration: line-through #704570 ;
+    width: 200px;
 }
 .barato{
     background-color: #1F1B79;
-    width: 180px;
-    color: black;
+     color: black;
     height: 400px;
     margin: auto;
     font-size: 2.5em;
     border-radius: 20px;
     font-family: ok;
     display: inline-block;
+    width: 200px;
 }
 #mar{
     margin-top: 150px;
@@ -150,8 +149,5 @@ a{
     font-weight: bolder;
     padding-left: 58px;
     padding-right: 58px;
-}
-#shadow{
     text-shadow:black -4px 1px;
 }
-
