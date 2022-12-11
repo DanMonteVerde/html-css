@@ -32,8 +32,6 @@ margin: auto;
 max-width: 995px;
 border-left:solid#3F6A95;
 border-right:solid#3F6A95;
-border-bottom:solid#3F6A95 ;
-
 }
 iframe{
 position: absolute;
@@ -50,8 +48,9 @@ table{
     margin: auto;
     width: 1000px;
     height: 500px;
-    border: solid #3F6A95;
-
+    border-top: solid #3F6A95;
+    border-left:solid#3F6A95;
+    border-right:solid#3F6A95;
 }
 th,td{
     border: 2px solid black;
