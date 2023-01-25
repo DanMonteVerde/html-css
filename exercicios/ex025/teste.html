@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .pai{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    form{
+        background-image: linear-gradient(to right,black,gray);
+        width: 400px;
+        height: 400px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.5em;
+        border-radius: 20px 20px;
+        text-align: center;
+    }
+    .cont{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color:#594039c1;
+        height: 300px;
+        box-shadow: -1px 1px 20px 20px;
+        border-radius: 0px 19px;
+        vertical-align: middle;
+    }
+    .mincont{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+</style>
+<body>
+    <div class="pai">
+            <form action="cadastro.php" autocomplete="off">
+                <div class="cont">
+            <div class="mincont">
+                    <p>
+                        <label for="inome">Nome:</label>
+                        <input type="text" name="nome" id="inome" required minlength="5" autocomplete="name">
+                    </p>
+                    <p>
+                        <label for="isb">Sobrenome:</label>
+                        <input type="text" name="sb" id="isb" required maxlength="20">
+                    </p>
+                    <p>
+                        <label for="ict">Senha</label>
+                        <input type="password" name="ct" id="ict" autocomplete="new-password" required minlength="8">
+                    </p>
+                        </div>
+                </div>
+            
+            </form>
+            oi
+        </div>
+</body>
+</html>
