@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon">
+    <title>Resumo de tudo o que eu aprendi em HTML/CSS</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1 id="res">
+       RESUMO
+    </h1>
+    <h2>Parágrafos e Quebras</h2>
+    <p>ISSO É UM PARÁGRAFO SENDO ASSIM PARA QUBRAMOS UMA LINHA AQUI <br> NESSE TEXTO NA PROPRIA TAG P A HORA QUE QUISERMOS USAMOS A TAG BR! a tag br foi usada na palavra AQUI</p>
+    <h2>Simbolos e Emoji</h2>
+    <p>
+        Exemplos de emojis usando &# seguido de um codigo e encerrado com:;
+        &#9840;
+        &#9832;
+        &#9786;
+        <br>
+        Exemplo de site:<br></site></site:br><a href="https://www.blogson.com.br/lista-de-simbolos-do-html-5/">https://www.blogson.com.br/lista-de-simbolos-do-html-5/</a><br>
+        <a href="https://emojipedia.org">https://emojipedia.org</a>
+        <br>
+        Para colocar o emoji que queremos pegamos o codigo do emoji no site emojipedia colocamos &#x e em seguida o codepoint exemplo: <br>
+        &#x1F408;
+        <br>
+        Exemplo de simbolos nativos do html <br>
+        &reg;
+        &copy;
+        &trade; entre varias outras é so colocarmos & e o  nome do simbolo ja ira aparecer varias opçoes;
+    </p>
+    <h2>Inserindo imagens em html5</h2>
+    <p>
+            Para colocarmos uma imagen podemos usar a tag img e colocarmos a imagen no atributo src.Exemplo abaixo:
+            <br>
+        <img src="testeimg.jpg" alt="Fuck ass hol">
+        <img src="ryder.jpeg" alt="Ryder">
+    </p>
+    <h2>Como mudar o Favicon de um site</h2>
+    <p>O favicon é aquela pequena imagen que fica proxima da url, para ponhamos essa imagen usamos a tag: link rel="shortcut icon" href="favicon.ico" type="image/x-icon"  colocamos o arquivo no href e o link deve esta no head</p>
+    <h2>Hierarquia de Titulos</h2>
+    <p>
+        A hierarquia de titulos começam de h1 e vai ate h6 é bom lembrar que h1 n aumenta letra transforma ela em um titulo o h1 é como o tiulo resumo para usarmos é so colocarmos uma frase ou palavra dentro da tag h1 exemplos de titulos abaixo
+        <h1>Aqui esta um h1</h1>
+        <h2>Aqui esta um h2</h2>
+        <h3>Aqui esta um h3</h3>
+        <h4>Aqui esta um h4</h4>
+        <h5>Aqui esta um h5</h5>
+        <h6>Aqui esta um h6</h6>
+    </p>
+    <h2>Semântica da HTML5</h2>
+    <p>Semântica seria algumas tags que podem ser abreviadas ou tem a mesma função mais tem outro nome isso serve para que os navegadores ou o proprio google possa conseguir separar melhor o nosso conteudo ou ate mesmo para nos desenvolvedores possamos organizar melhor o nosso site ou para acessibilade como para pessoas cegas e etc...</p>
+    <h2>Negrito e Italico</h2>
+    <p><strong>Para colocarmos uma frase em negrito podemos usar a tag strong ou a </strong><b>tag b, a tag strong é uma tag semantica como vimos acima</b></p>
+
+    <p><em>Para colocarmos uma frase em italico podemos usar a tag em ou a</em> <i>tag i, a tag em é uma tag semantica como vimos acima</i></p>
+    <h2>Formatações adicionais em HTML</h2>
+    <h3>Texto marcado</h3>
+    <p>Podemos criar <mark>um texto marcado</mark> usando a tag MARK.para mudarmos a cor é so colocar o background color no css na tag mark.</p>
+    <h3>Texto grande e pequeno</h3>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo o big é uma tag obsoleta e o small é uma tag que ainda é considerada. Não use big se quiser aumentar vai no css!</p>
+    <h3>Texto deletado</h3>
+    <p>Podemos marcar <del>um texto como excluido</del> para indicar que ele deve ser lido mais não considerado</p>
+    <h3>Texto inserido</h3>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe também o <u>sublinhado</u> com a tag U (Não semântica)</p>
+    <h3>Texto sobrescrito</h3>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3. tag(sup)</p>
+    <h3>Texto subscrito</h3>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O. tag(sub)</p>
+    <h2>Citações e Códigos</h2>
+    <h3>Código-fonte</h3>
+    <p>O comando <code>document.getElementByID("teste")</code> é escrito em linguagem JavaScript. (tag code no comando JS). Para que o codigo considere espaços quebras e apareça no navegador como no editor colocamos a tag (pre) em todo o conteudo que quremos que ocorra o dito acima!</p>
+    <pre>
+        <code>
+num = int(input("Digite um número"))
+if num % 2 == 0:
+    print(f"O número {num} é PAR")
+else:
+    print(f"O numero {num} é IMPAR")
+print("Fim do programa")
+        </code>
+    </pre>
+    <h3>Citações</h3>
+    <p>Como dizia o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h3>Citações completas</h3>
+    <P>Segundo Jeff Noble,no seu livro HTML para Leigos:</P>
+    FOI USADO A TAG BLOCKQUOTE ABAIXO
+    <blockquote cite="https://www.amazon.com.br/HTML-XHTML-CSS-para-leigos/dp/8576086972/ref=asc_df_8576086972/?tag=googleshopp00-20&linkCode=df0&hvadid=379765802639&hvpos=&hvnetw=g&hvrand=16525833668492059760&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001522&hvtargid=pla-811121404721&psc=1">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capitulo descrevem os blocos de texto. 
+    </blockquote>
+    <h3>Abreviações</h3>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading style Sheets">CSS</abbr>. Estou adorando! Coloquei a tag abbr no HTML E CSS e no seu title os significados,quando passamos o mouse ira aparecer as suas respectivas abreviações!</p>
+    <h3>Texto Invertido</h3>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo> aqui coloquei a tag bdo que serve para inverter um texto</p>
+    <h2>Listas em HTML5</h2>
+    <p>Abaixo é um exemplo de listas ordenada usamos a tag ol e o texto que queremos colocar dentro da tag li. uma lista ordenada ela começa numerada de forma crescente saindo do numero 1; Logo abaixo vou colocar uma lista nao ordenada que começa com a tag ul e como a ol seu conteudo é colocado com a tag li! podemos trocar o simbolo colocando no css o style da lista e podemos colocar por exemplo um emoji etc... exemplo:
+        <pre>
+            ul{
+                list-style-type: "\1F408";
+            }
+        </pre>
+    </p>
+    <ol>
+        <li>HTML</li>
+        <li>JAVA</li>
+        <li>PYTHON</li>
+        <li>PHP</li>
+        <li>C</li>
+        <li>C++</li>
+    </ol>
+    <ul>
+        <li>APPLE</li>
+        <li>XIAOMI</li>
+        <li>DELL</li>
+        <li>SANSUG</li>
+        <li>MOTOROLA</li>
+        <li>WINDOWS</li>
+        <li>ANDROID</li>
+        <li>IOS</li>
+    </ul>
+    <h2>Listas Mistas e de Definição</h2>
+    <p>Exemplo de listas mistas: (podemos misturas as listas como quisermos !!)</p>
+    <h1>Minhas linguagens favoritas</h1>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>HTML</li>
+            <li>JAVA</li>
+            <li>PYTHON</li>
+            <li>PHP</li>
+            <li>C</li>
+            <li>C++</li>
+        </ol>
+    </ol>
+    <h1>Meus jogos favoritos</h1>
+    <ol>
+        <li>NES</li>
+        <ul>
+            <li>Mario Bros</li>
+            <ul>
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul>
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul>
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <h3 style="color: springgreen;">Lista de Definição usamos as tag dl,dt,dd (serve como um mini dicionario)</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo do site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+        </body>
+    </dl>
+    <h2>Links e Âncoras em HTML5</h2>
+    <h3>links externos</h3>
+    <p>para colocarmos um link no html podemos usar a tag (a) e colocar no seu href do site que queremos abrir e dentro da tag colocamos uma palavra que guardara esse link de uma forma "escondida ou mais bonitinha ou com um significado etc..."<br>
+        Exemplo:<a href="https://www.youtube.com">YouTube</a><br>
+        quando clicarmos esse link sera aberto na propria pagina que ja está para que abra em uma nova pagina colocamos dentro do a um atributo chamado target e colocamos seu valor como _blank, como o exemplo abaixo!!<br>
+        Exemplo:<a href="https://www.youtube.com" target="_blank">YouTube2</a>
+    <h3>links internos</h3>
+    <p>para colocarmos um link interno é bem parecido com o externo a diferença é que vamos colocar um arquivo interno no href exemplo abaixo!!</p>
+    Exemplo:<a href="index2.html">MEU SITE</a>
+    </p>
+    <h3>links para download</h3>
+    <p>Para colocarmos um link para download devemos seguir quase a mesma regra da tag (a),coloque no atributo href o arquivo que vai ser baixado e coloque um atributo chamado download e coloque nele novaemente o arquivo que sera baixado e na tag A o que vai ser escrito! exempo:
+        <pre><(a href="ryder.jpeg" download="ryder.jpeg"> Baixe aqui!!!/a>)</pre>
+        <br>
+        <a href="testeimg.jpg" download="testeimg.jpg">BAIXE AQUI A FOTO DO CJ!</a>
+    </p>
+    <h2>Elemento picture em HTML5</h2>
+    <p>Exemplo de responsividade com imagens usando o elemento picture serve para que para cada tamanho de tela tenha uma imagen ou o tamanho da mesma so que para uma tela maior ou visse versa. Exemplo abaixo:</p>
+    <pre>
+        (picture>
+            (source media="(max-width: 500px)" srcset="favicon.ico.png">
+            (source media="(max-width: 749px)" srcset="ryder.jpeg">
+            (img src="testeimg.jpg" alt="">
+         (/picture>
+    </pre>
+    <p>Para testar podemos ajustar a tela!</p>
+         <picture>
+            <source media="(max-width: 500px)" srcset="favicon.ico.png">
+            <source media="(max-width: 749px)" srcset="ryder.jpeg">
+            <img src="testeimg.jpg" alt="">
+         </picture>
+    <h2>Áudio em HTML5</h2>
+    <p>Para colocarmos um audio no HTML5 colocamos no src o audio que esta na nossa pasta e depois um atributo chamado controls ele ira fazer todos os controles para que o usuario possa reproduzir a musica! EXEMPLO ABAIXO:</p>
+    <pre>
+        audio src="Ed_Sheeran_-_Perfect_(BornMP3.com).mp3" controls>/audio
+    </pre>
+    <audio src="Ed_Sheeran_-_Perfect_(BornMP3.com).mp3" controls></audio>
+    <h2>Videos em HTL5 em hospedagem propria.</h2>
+    <p>Para colocarmos um video com hospedagem propria é exatamente igual a colocar um audio a diferença é que usamos a tag VIDEO exemplo abaixo:</p>
+
+    <pre>
+        (video src="Ed Sheeran - Perfect (Official Music Video).mp4" controls>/video
+    </pre>
+    <video src="Ed Sheeran - Perfect (Official Music Video).mp4" controls></video>
+    <h2>Videos em HTL5 em hospedagem externa.</h2>
+    <p>Para colocarmos um video com hospedagem externa na maioria das vezes em apps e sites é so ir na opção compartilhar e ir em incorporar la ja vai ter o video pronto para o codigo html so copiar e colar exemplo abaixo:</p>
+    <pre>
+        iframe width="560" height="315" src="https://www.youtube.com/embed/kPhpHvnnn0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>/iframe>
+    </pre>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2Vv-BfVoq4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h3>LEMBRANDO QUE TODAS ESSAS TAGS SÃO ESTILIZADAS PELO CSS AO FINAL DA PAGINA IREI COLOCAR O ARQUIVO CSS QUE UTILIZAMOS PARA ESSAS PEQUENAS ESTILIZAÇOES DESSE PROPRIO SITE!</h3>
+    <h1 id="res">FIM DO PRIMEIRO MODULO</h1>
+</html>

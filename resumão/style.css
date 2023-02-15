@@ -1,0 +1,30 @@
+
+#res{
+    text-align: center;
+    color: rgba(81, 80, 80, 0.464);
+}
+
+h2{
+    color:rgb(207, 179, 131);
+}
+
+p{
+    color: springgreen;
+    margin-bottom:30px ;
+}
+
+img{
+    width: 300px;
+}
+
+a{
+    color: mediumseagreen;
+}
+
+mark{
+    background-color: limegreen;
+}
+
+ul{
+    list-style-type: "\1F408";
+}
