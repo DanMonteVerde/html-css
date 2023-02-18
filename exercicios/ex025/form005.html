@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+<fieldset>
+    
+                <label for="itex">Qual seu nome?</label>
+                <input type="text" name="tex" id="itex">
+</fieldset>
+        
+
+            <fieldset>
+                <legend>SEXO</legend>
+                <label for="irm">HOMEM</label>
+                <input type="radio" name="r" id="irm" checked value="H"><br>
+                <label for="irh">MULHER</label>
+                <input type="radio" name="r" id="irh" value="M">
+            </fieldset>
+        
+        
+        <fieldset>
+            <legend>VOCÊ GOSTA DE QUAIS ANIMAIS?</legend>
+            
+            <input type="checkbox" name="c" id="ic">
+            <label for="ic">CACHORRO</label><br>
+            <input type="checkbox" name="g" id="ig" checked>
+            <label for="ig">GATO</label><br>
+            <input type="checkbox" name="m" id="im">
+            <label for="im">MACACO</label><br>
+            <input type="checkbox" name="b" id="ib">
+            <label for="ib">BURRO</label><br>
+            <input type="checkbox" name="o" id="io">
+            <label for="io">OVELHA</label>
+        </fieldset>
+
+           
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
